@@ -94,9 +94,9 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Customize Form" : "tz_custom.custom.doctype.customize_form.customize_form.CustomCustomizeForm",
+}
 
 # Document Events
 # ---------------
