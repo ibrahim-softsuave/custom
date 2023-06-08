@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tz_custom *.css
+recursive-include tz_custom *.csv
+recursive-include tz_custom *.html
+recursive-include tz_custom *.ico
+recursive-include tz_custom *.js
+recursive-include tz_custom *.json
+recursive-include tz_custom *.md
+recursive-include tz_custom *.png
+recursive-include tz_custom *.py
+recursive-include tz_custom *.svg
+recursive-include tz_custom *.txt
+recursive-exclude tz_custom *.pyc
